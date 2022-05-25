@@ -1,28 +1,13 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/alexanderpsitos/turing/3module/week_1/pair_project/viewing_party_lite/app/helpers/application_helper.rb": {
+      "/Users/drewproebstel/turing/3module/drews_viewing_party/viewing_party_lite/app/helpers/application_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/Users/alexanderpsitos/turing/3module/week_1/pair_project/viewing_party_lite/app/models/party.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/alexanderpsitos/turing/3module/week_1/pair_project/viewing_party_lite/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/alexanderpsitos/turing/3module/week_1/pair_project/viewing_party_lite/app/models/user_party.rb": {
+      "/Users/drewproebstel/turing/3module/drews_viewing_party/viewing_party_lite/app/models/party.rb": {
         "lines": [
           1,
           1,
@@ -30,34 +15,50 @@
           null
         ]
       },
-      "/Users/alexanderpsitos/turing/3module/week_1/pair_project/viewing_party_lite/app/models/user.rb": {
+      "/Users/drewproebstel/turing/3module/drews_viewing_party/viewing_party_lite/app/models/application_record.rb": {
         "lines": [
           1,
           1,
+          null
+        ]
+      },
+      "/Users/drewproebstel/turing/3module/drews_viewing_party/viewing_party_lite/app/models/user_party.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/drewproebstel/turing/3module/drews_viewing_party/viewing_party_lite/app/models/user.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/drewproebstel/turing/3module/drews_viewing_party/viewing_party_lite/app/controllers/users_controller.rb": {
+        "lines": [
           1,
           null,
           1,
+          5,
+          null,
           null,
           1,
-          null
-        ]
-      },
-      "/Users/alexanderpsitos/turing/3module/week_1/pair_project/viewing_party_lite/app/controllers/users_controller.rb": {
-        "lines": [
+          4,
+          4,
+          1,
           1,
           null,
-          1,
           3,
-          null,
-          null,
-          1,
-          2,
-          2,
-          1,
-          1,
-          null,
-          1,
-          1,
+          3,
           null,
           null,
           null,
@@ -72,18 +73,18 @@
           null,
           1,
           1,
-          2,
+          4,
           null,
           null
         ]
       },
-      "/Users/alexanderpsitos/turing/3module/week_1/pair_project/viewing_party_lite/app/controllers/application_controller.rb": {
+      "/Users/drewproebstel/turing/3module/drews_viewing_party/viewing_party_lite/app/controllers/application_controller.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/Users/alexanderpsitos/turing/3module/week_1/pair_project/viewing_party_lite/app/controllers/movies_controller.rb": {
+      "/Users/drewproebstel/turing/3module/drews_viewing_party/viewing_party_lite/app/controllers/movies_controller.rb": {
         "lines": [
           1,
           null,
@@ -108,7 +109,7 @@
           null
         ]
       },
-      "/Users/alexanderpsitos/turing/3module/week_1/pair_project/viewing_party_lite/app/facades/movie_facade.rb": {
+      "/Users/drewproebstel/turing/3module/drews_viewing_party/viewing_party_lite/app/facades/movie_facade.rb": {
         "lines": [
           1,
           null,
@@ -139,7 +140,7 @@
           null
         ]
       },
-      "/Users/alexanderpsitos/turing/3module/week_1/pair_project/viewing_party_lite/app/services/movie_service.rb": {
+      "/Users/drewproebstel/turing/3module/drews_viewing_party/viewing_party_lite/app/services/movie_service.rb": {
         "lines": [
           1,
           1,
@@ -233,7 +234,7 @@
           null
         ]
       },
-      "/Users/alexanderpsitos/turing/3module/week_1/pair_project/viewing_party_lite/app/poros/movie.rb": {
+      "/Users/drewproebstel/turing/3module/drews_viewing_party/viewing_party_lite/app/poros/movie.rb": {
         "lines": [
           1,
           null,
@@ -248,7 +249,7 @@
           null
         ]
       },
-      "/Users/alexanderpsitos/turing/3module/week_1/pair_project/viewing_party_lite/app/poros/movie_details.rb": {
+      "/Users/drewproebstel/turing/3module/drews_viewing_party/viewing_party_lite/app/poros/movie_details.rb": {
         "lines": [
           1,
           1,
@@ -277,7 +278,7 @@
           null
         ]
       },
-      "/Users/alexanderpsitos/turing/3module/week_1/pair_project/viewing_party_lite/app/controllers/landing_controller.rb": {
+      "/Users/drewproebstel/turing/3module/drews_viewing_party/viewing_party_lite/app/controllers/landing_controller.rb": {
         "lines": [
           1,
           1,
@@ -286,7 +287,7 @@
           null
         ]
       },
-      "/Users/alexanderpsitos/turing/3module/week_1/pair_project/viewing_party_lite/app/mailers/application_mailer.rb": {
+      "/Users/drewproebstel/turing/3module/drews_viewing_party/viewing_party_lite/app/mailers/application_mailer.rb": {
         "lines": [
           0,
           0,
@@ -296,7 +297,7 @@
         "branches": {
         }
       },
-      "/Users/alexanderpsitos/turing/3module/week_1/pair_project/viewing_party_lite/app/jobs/application_job.rb": {
+      "/Users/drewproebstel/turing/3module/drews_viewing_party/viewing_party_lite/app/jobs/application_job.rb": {
         "lines": [
           0,
           0
@@ -304,7 +305,7 @@
         "branches": {
         }
       },
-      "/Users/alexanderpsitos/turing/3module/week_1/pair_project/viewing_party_lite/app/controllers/concerns/movies_controller.rb": {
+      "/Users/drewproebstel/turing/3module/drews_viewing_party/viewing_party_lite/app/controllers/concerns/movies_controller.rb": {
         "lines": [
           0,
           null,
@@ -333,7 +334,7 @@
         "branches": {
         }
       },
-      "/Users/alexanderpsitos/turing/3module/week_1/pair_project/viewing_party_lite/app/controllers/channels/application_cable/connection.rb": {
+      "/Users/drewproebstel/turing/3module/drews_viewing_party/viewing_party_lite/app/controllers/channels/application_cable/connection.rb": {
         "lines": [
           0,
           0,
@@ -343,7 +344,7 @@
         "branches": {
         }
       },
-      "/Users/alexanderpsitos/turing/3module/week_1/pair_project/viewing_party_lite/app/controllers/channels/application_cable/channel.rb": {
+      "/Users/drewproebstel/turing/3module/drews_viewing_party/viewing_party_lite/app/controllers/channels/application_cable/channel.rb": {
         "lines": [
           0,
           0,
@@ -354,6 +355,6 @@
         }
       }
     },
-    "timestamp": 1652465007
+    "timestamp": 1653457274
   }
 }

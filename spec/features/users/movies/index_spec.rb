@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe 'the users index page' do
 
   before :each do
-    @user_1 = User.create!(name: 'Alfonso Diogenes', email: 'alphonsodiogenes420@hotmail.com')
+    @user_1 = User.create!(name: 'Alfonso Diogenes', email: 'alphonsodiogenes420@hotmail.com', password: 'ACrappleADay')
   #   @user_2 = User.create!(name: 'Cradley Booper', email: 'cradleybooper420@hotmail.com')
   #   @user_3 = User.create!(name: 'Jangelina Aolie', email: 'jangelinaaolie420@hotmail.com')
   #   @party_1 = Party.create!(date: '2022-05-10', duration: 147, start_time: '7:00', movie: 'Jurassic Park', host: @user_1.id)
@@ -12,14 +12,14 @@ RSpec.describe 'the users index page' do
   #   @user_party_2 = UserParty.create!(user_id: @user_1.id, party_id: @party_2.id)
   end
 
-  it 'shows top 40 movies' do
-    VCR.use_cassette("shows_top_40_movies") do
+  it 'shows top 40 movies', :vcr do
+    # VCR.use_cassette("shows_top_40_movies") do
       visit user_discover_path(@user_1)
       click_button("Find Top Rated Movies")
       expect(current_path).to eq(user_movies_path(@user_1))
       expect(page).to have_content("The Good, the Bad and the Ugly")
       expect(page).to have_content("The Godfather")
-    end
+    # end
   end
 
   it 'shows search results with vote averages and titles as links of movies that match search params' do
